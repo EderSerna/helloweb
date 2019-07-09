@@ -1,0 +1,270 @@
+/*
+*   Css para los ejemplos de la carpeta "/ejemplos-css/"
+*
+*
+*/
+pAritz{
+	color: orange;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4, h5, h6{
+	font-size: 1.3em;
+}
+
+
+.segunTit{
+	font-size: 2em;
+}
+
+
+
+
+
+p span{
+	background-color: blue;
+	color:white;
+	
+}
+
+
+input[type="text"] {
+	
+}
+
+input.destacado { }
+input[class="destacado"] {
+	
+}
+
+
+p .destacado{
+	color: red;
+}
+
+
+@media print {
+
+  h1 { color: pink; }
+  
+}
+
+#recipiente{
+	background-color:red;
+	width:100%;
+}
+.contenedor{
+	background-color:black;
+	color:white;
+	width:31%;
+	height:30%;
+	display:inline-block;
+	margin: 1%;
+}
+
+i{
+	margin:0;
+	padding:0;
+}
+#myBtn {
+  width:4.5em;
+  height:4.5em;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: blue; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 0;/* Some padding */
+  text-align:center;
+  border-radius: 50%; /* Rounded corners */
+   /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: green; /* Add a dark-grey background on hover */
+}
+
+.card {
+	max-width: 400px;
+    width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
+.card:hover .card-content{
+	bottom: 0;
+	animation-duration: 1s;
+}
+  
+.card-content{
+	max-width: 400px;
+	width:100%;
+	background-color: rgba(0,0,0,0.7);
+	padding: 10px;
+	color: #FFF;
+	position: absolute;    
+	transition-duration:1.5s;
+	bottom: -165px;
+}
+
+h2 {
+	color: #FFF;
+	font-weight: 600;
+	font-size: 1.6em;
+	max-width: 400px;
+	width:100%;
+}
+    
+.fa-heart{
+	float: right;
+	color: #f98585;	
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.far:hover{
+	animation: pulse .85s infinite alternate;
+	color: red;
+}	
+
+#pfRe{
+
+	background-color:red;
+	width:100%;
+
+}
+#pfRe img{
+	width: 200px;
+	height: auto;
+}
+.pfCo{
+
+	background-color:black;
+	color:white;
+	width:31%;
+	margin: 1%;
+
+}    
+
+body{
+	margin:0;
+	padding:0;	
+}
+
+h1{
+	background-color:rgb(0,53,128);
+	margin: 0;
+	padding: 0.6% 0 0.6% 12%;
+	/*width:100%;	*/
+	font-size: 2.2vw;
+	color:white;
+}
+
+.imagen{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+}
+
+.topnav {
+  padding-left:12%;
+  overflow: hidden;
+  background-color: rgb(247,247,247);
+ /* width:100%;*/
+  /*height: 4.69%;*/
+  max-height:4.69%;
+  border-bottom-style: solid;
+  border-width:1px;
+  border-color: lightgrey;
+
+}
+
+.topnav a {
+
+  float: left;
+  color: rgb(0,53,128);
+  text-align: center;
+  padding: 7px 9px;
+  text-decoration: none;	
+  font-size: 1.17vw;
+  font-weight:bold;
+  height: 55%;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  
+}
+
+.topnav a.active {
+  background-color: #003580;
+  color: white;
+}
+footer{	
+   position:fixed;
+   bottom:0;
+   width:100%;
+   height:7%;
+   background:#6cf;
+   padding:0;
+   margin:0;
+}
+footer p{
+	width:100%;
+	color:red;
+	font-size: 1vw;
+}
+#volverIni{
+	text-decoration: none;
+	color:white;
+}
+#volverIni:visited{
+	color: white;
+}
+
+#principal{
+  position: -webkit-sticky;
+  position:sticky;
+  top:0;
+}
+
+@media (max-width: 425px){
+
+	footer{
+		position: fixed;
+	}
+	footer p{
+		font-size: 0.7em;
+	}
+	h1{
+		font-size: 2.5em;
+	}
+	.topnav a{
+		font-size: 0.7em;
+	}
+	.card{
+		width:98%;
+		padding:1%;
+	}
+	img{
+		width:99.5%;
+	}
+	.card-content{
+		width:92%;
+	}
+	.card-content h2{
+		paddig:1%;
+		width:95%;
+	}
+}
