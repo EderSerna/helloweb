@@ -1,3 +1,4 @@
+		</div>
 		<footer>
 				<p id="marcaDeLaCasa">&copy; Ipartek 2019</p>
 		</footer>
