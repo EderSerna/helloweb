@@ -18,6 +18,8 @@ h4, h5, h6{
 
 .segunTit{
 	font-size: 2em;
+	text-align: center;
+	padding-left: 2%;
 }
 
 
@@ -116,7 +118,7 @@ i{
 }
 
 h2 {
-	color: #FFF;
+	color: #000;
 	font-weight: 600;
 	font-size: 1.6em;
 	max-width: 400px;
@@ -238,13 +240,18 @@ footer p{
   position:sticky;
   top:0;
 }
+.contenidoPrincipal{
+	padding:1%;
+	margin-bottom: 3%;
+}
 
+.justificar{
+	text-align: justify;
+}
 @media (max-width: 425px){
-	.contenidoPrincipal{
-		padding:1%;
-	}
+
 	footer{
-		position: fixed;
+		align-self: flex-end;
 	}
 	footer p{
 		font-size: 0.7em;
@@ -269,4 +276,10 @@ footer p{
 		paddig:1%;
 		width:95%;
 	}
+	.segunTit{
+		padding-bottom: 2%;
+	}
+	.contenidoPrincipal{
+	margin-bottom: 10%;
+}
 }

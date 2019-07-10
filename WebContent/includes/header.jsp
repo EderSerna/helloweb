@@ -9,7 +9,8 @@
 		<!--  librerias de otros  -->
 		<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="vendors/fontawesome-free-5.9.0-web/css/all.min.css"  />
-		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 		
 		<!-- Nuestro CSS -->
 		<link rel="stylesheet" type="text/css" href="css/estilos.css" media="screen" />	
@@ -51,7 +52,8 @@
 		<nav class="topnav">
 		  <a class="active" href="saludo/formulario.jsp"><i class="far fa-play-circle"></i> Crear Video</a> 
 		  <a href="saludo/crearPerro.jsp"><i class="fas fa-dog"></i>Crear Perro</a>
-		  <a href="ejemplos-css/index.jsp">Ejemplos de CSS</a>
+		  <a href="ejemplos-css/index.jsp">CSS</a>
+		  <a href="ejemplos-bootstrap/index.jsp">Bootstrap</a>
 		</nav>
 		</div>
 	</header>
